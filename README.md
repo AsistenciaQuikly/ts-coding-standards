@@ -29,14 +29,14 @@ Declarar variables es una de las cosas más importantes a la hora de codificar, 
 
 <a name="nombres-de-variables"></a>
 #### Nombres de variables
-Los nombres de variables deben ser escritos con notación camelCase y las constantes en mayúsculas y con '_' para separalas.
+Los nombres de variables deben ser escritos con notación camelCase y en ingles, toda variable o funcionalidad generalmente el codigo en ingles.
 
 ```typescript
 let test;  // Nombre de variable correcto
 let i_am_bad; //  Nombre de variable incorrecto
 let iAmFine; //  Nombre de variable correcto
 const a = 20 // Nombre de constante incorrecto
-const MY_FAV = 20 // nombre de constante correcto
+const myFav = 20 // nombre de constante correcto
 ```
 - Usar el PascalCase para nombrar el tipo.
 ```typescript
